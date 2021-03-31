@@ -30,9 +30,9 @@
 //      |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,   |  .  |  /  |
 //                  | GUI | LWR | SPC |   | ENT | RSE  |'[SET]|
                         bindings = <
-   &KP A        &kp Q      &kp W      &kp F      &kp P        &kp B     &kp J    &kp L      &kp U      &kp Y        &kp SEMI             &KP A
-   &KP A        &mt LALT A &mt LCTRL R &mt LSHFT S &mt LGUI T &kp G     &kp M    &mt LGUI N &mt LSHFT E &mt LCTRL I &mt LALT O           &KP A
-   &KP A        &kp Z      &kp X      &kp C      &kp D        &kp V     &kp K    &kp H      &kp COMMA  &kp DOT      &kp FSLH             &KP A
+   &kp A        &kp Q      &kp W      &kp F      &kp P        &kp B     &kp J    &kp L      &kp U      &kp Y        &kp SEMI             &kp A
+   &kp A        &mt LALT A &mt LCTRL R &mt LSHFT S &mt LGUI T &kp G     &kp M    &mt LGUI N &mt LSHFT E &mt LCTRL I &mt LALT O           &kp A
+   &kp A        &kp Z      &kp X      &kp C      &kp D        &kp V     &kp K    &kp H      &kp COMMA  &kp DOT      &kp FSLH             &kp A
                    &kp LGUI &lt LOWER TAB &kp SPACE   &kp BSPC &lt RAISE RET &lt SETTING SQT
                         >;
                 };
