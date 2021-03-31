@@ -17,14 +17,10 @@
 
 / {
         behaviors {
-                hm: homerow_mods {
-                compatible = "zmk,behavior-hold-tap";
-                label = "HOMEROW_MODS";
-                #binding-cells = <2>;
+                &mt {
                 tapping-term-ms = 200;
                 quick_tap_ms = -1;
                 flavor = "tap-preferred";
-                bindings = <&kp>, <&kp>;
         };
 };
 
@@ -41,7 +37,7 @@
 //                  | GUI | LWR | SPC |   | ENT | RSE  |'[SET]|
                         bindings = <
    &KP A        &kp Q      &kp W      &kp F      &kp P        &kp B     &kp J    &kp L      &kp U      &kp Y        &kp SEMI             &KP A
-   &KP A        &hm LALT A &hm LCTRL R &hm LSHFT S &hm LGUI T &kp G     &kp M    &hm LGUI N &hm LSHFT E &hm LCTRL I &hm LALT O           &KP A
+   &KP A        &mt LALT A &mt LCTRL R &mt LSHFT S &mt LGUI T &kp G     &kp M    &mt LGUI N &mt LSHFT E &mt LCTRL I &mt LALT O           &KP A
    &KP A        &kp Z      &kp X      &kp C      &kp D        &kp V     &kp K    &kp H      &kp COMMA  &kp DOT      &kp FSLH             &KP A
                    &kp LGUI &lt LOWER TAB &kp SPACE   &kp BSPC &lt RAISE RET &lt SETTING SQT
                         >;
