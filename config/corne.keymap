@@ -18,11 +18,9 @@
 / {
         behaviors {
                 &mt {
-                tapping-term-ms = 200;
-                quick_tap_ms = -1;
-                flavor = "tap-preferred";
+                    retro-tap;
+                };
         };
-};
 
 
 
