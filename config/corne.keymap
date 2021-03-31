@@ -15,15 +15,11 @@
 #define LOWER   2
 #define RAISE   3 
 
+&mt {
+    retro-tap;
+};
+
 / {
-        behaviors {
-                &mt {
-                    retro-tap;
-                };
-        };
-
-
-
         keymap {
                 compatible = "zmk,keymap";
 
