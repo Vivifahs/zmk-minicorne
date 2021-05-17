@@ -103,7 +103,7 @@
                         &hm LCTRL Z &hm LALT X &kp SPACE        &none   &none   &none
                         >;
                 };
-                
+
                 qwer_steno {
 // -----------------------------------------------------------------------------------------
 //      |     |     |     |     |     | |     |     |     |     |     |
@@ -113,7 +113,7 @@
                         bindings = <
 &none   &kp Q   &kp W   &kp E   &kp R   &kp T   &kp U   &kp I   &kp O   &kp P   &kp LBKT   &none
 &none   &kp A   &kp S   &kp D   &kp F   &kp G   &kp J   &kp K   &kp L   &kp SEMI   &kp SQT   &none
-&none   &kp   &none   &none   &none   &none   &none   &none   &none   &none   &&tog STENO   &none
+&none   &kp   &none   &none   &none   &none   &none   &none   &none   &none   &tog STENO   &none
                         &kp C   &kp V   &none   &none   &kp N   &kp M
                         >;
 
